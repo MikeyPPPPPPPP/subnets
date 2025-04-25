@@ -10,6 +10,14 @@ http://dsffds.com
 http://dsaffds.com   
 ```
 
+```
+hgjfg.fds.com
+rwqr.easefds.com
+sadd.dsffds.com
+dsaffds.com
+```
+
+
 Output Data: 
 ```
 10.0.0.0/24
