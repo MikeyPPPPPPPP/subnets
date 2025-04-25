@@ -53,7 +53,8 @@ def main():
 
 			#url to hostname
 				if line.strip().startswith("http"):
-					hostnames.append(line.strip().split("://")[1])
+					ips[line.strip().split("://")[1]] = socket.gethostbyname(line.strip().split("://")[1])
+					#hostnames.append(line.strip().split("://")[1])
 				elif len(line.strip()) > 7:
 					#the hope is that the small bits of data will be less then "https://"
 					#hostnames.append(line.strip())
